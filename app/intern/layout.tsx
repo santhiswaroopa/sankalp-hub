@@ -9,7 +9,7 @@ export default function InternLayout({
     <div className="flex min-h-screen">
 
       {/* Sticky Sidebar */}
-      <aside className="w-64 bg-green-700 text-white px-6 py-8 h-screen sticky top-0">
+      <aside className="w-64 bg-blue-900 text-white px-6 py-8 h-screen sticky top-0">
         <h2 className="text-2xl font-bold mb-8">Intern Panel</h2>
 
         <nav className="space-y-3">

@@ -1,4 +1,4 @@
-import Chart from "@/components/Chart";
+import Chart from "@/components/chart";
 import { analyticsData } from "@/data/mock";
 
 export default function Analytics() {

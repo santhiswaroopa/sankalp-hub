@@ -14,11 +14,11 @@ export default function AdminLayout({
 
         <nav className="space-y-3">
           <Link href="/admin/dashboard" className="block hover:text-gray-300">Dashboard</Link>
-          <Link href="/admin/interns" className="block hover:text-gray-300">Intern Management</Link>
+          <Link href="/admin/internmanagement" className="block hover:text-gray-300">Intern Management</Link>
           <Link href="/admin/notes" className="block hover:text-gray-300">Notes</Link>
           <Link href="/admin/assignments" className="block hover:text-gray-300">Assignments</Link>
           <Link href="/admin/submissions" className="block hover:text-gray-300">Submissions</Link>
-          <Link href="/admin/analytics" className="block hover:text-gray-300">Analytics</Link>
+          <Link href="/admin/review" className="block hover:text-gray-300">Analytics</Link>
         </nav>
       </aside>
 

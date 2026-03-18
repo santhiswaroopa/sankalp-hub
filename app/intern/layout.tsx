@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import { LogoutButton } from "@/components/LogoutButton";
 export default function InternLayout({
   children,
 }: {
@@ -9,7 +9,8 @@ export default function InternLayout({
     <div className="flex min-h-screen">
 
       {/* Sticky Sidebar */}
-      <aside className="w-64 bg-blue-900 text-white px-6 py-8 h-screen sticky top-0">
+      <aside className="w-64 bg-blue-900 text-white px-6 py-8 h-screen sticky top-0 flex flex-col">
+        <div>
         <h2 className="text-2xl font-bold mb-8">Intern Panel</h2>
 
         <nav className="space-y-3">
@@ -33,6 +34,11 @@ export default function InternLayout({
             Feedback
           </Link>
         </nav>
+        </div>
+         <div className="flex-1" />
+        <div className="">
+          <LogoutButton />
+        </div>
       </aside>
 
       {/* Page Content */}
